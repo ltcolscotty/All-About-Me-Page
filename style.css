@@ -1,0 +1,209 @@
+/*Notes:
+Numerous Placeholders that are to be filled with gifs and images that I haven't bothered upload yet
+Will upload some time in the future since framework for designs is being layed out
+
+
+*/
+
+
+/*---------------Main page config---------------*/
+#Pageconfig {
+    /* lightBlue will be a placeholder for future designs */
+    background-color: gray;
+    /* Arial font family is probably not placeholder */
+    font-family:arial;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*---------------General page config---------------*/
+
+#HobbyInterest{
+    margin: 0px;
+    padding: 45px;
+    color: white;
+    
+}
+
+.hobbyInterestContent {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) );
+}
+
+p {
+    margin: 15px;
+}
+
+a {
+    margin: 15px;
+}
+
+h4 {
+    margin: 20px;
+    font-size: 30px;
+}
+
+li {
+    padding: 7px;
+    font-size: 20px;
+}
+.title {
+    font-size: 35px;
+}
+
+h2.title {
+    margin: 10px;
+}
+
+p.textbox{
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 0px 50px 25px 50px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) )
+}
+.iframe-container {
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  position: relative;
+  margin: 75px;
+}
+
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+
+.vacationBox{
+    border-color:black;
+    border-width: 0px;
+    border-style: solid;
+    padding: 20px;
+    margin: 30px;
+    color: #CCCCCC;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*0px for temporary design decisons*/
+
+#NPIC {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://codehs.com/uploads/5026e9c0770bdc3a6f1afd10e99ad304");
+    color: #CCCCCC;
+}
+
+#MCITUS {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://codehs.com/uploads/27436fcff127a9ad937b283b58f5c875");
+}
+
+#OOC {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://codehs.com/uploads/b0fb71862be673ea62020ae2705272bf");
+}
+
+.vacationContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    
+}
+
+/*---------------Parallax things---------------*/
+
+.parallaxtest {
+  background-image:  linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url("https://codehs.com/uploads/500d2bd914e67d789ab5d46f9ca76990");
+
+  /* Set height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  position: relative;
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://codehs.com/uploads/85a25562753082f7023b029ad6a60ac4");
+
+
+  min-height: 500px;
+
+  position: relative;
+  background-attachment: fixed;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bar {
+    width: 100%;
+    padding: 5px 0px 5px 0px;
+    margin: 0px;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.bartext {
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+div.blackBox {
+    color: #ffffff;
+    background-color: #000000;
+    padding:10px;
+    
+}
+
+.pagehead {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    background-color: black;
+}
+
+.pageheadIcon {
+    width: 75px;
+    height: 75px;
+}
+
+.pageheadContainer {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 8fr;
+    grid-gap: 20px;
+    background-color: black;
+    padding: 25px;
+}
+/*Link Style Configurations*/
+
+a:link {
+    color: #DDDDDD;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #AAAAAA;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+
+
+
