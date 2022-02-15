@@ -1,0 +1,19 @@
+/*Blue is a placeholder for the background colors, divs and images. It will show where there are problems in the code*/
+
+#pageFormat {
+  margin: 0px;
+  padding: 0px;
+  background-color: blue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  padding: 25px;
+  margin: 0px;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+}
+
+
+

@@ -51,6 +51,15 @@ h2.title {
     margin: 10px;
 }
 
+hr {
+  width: 100%;
+  height: 5px;
+  margin: 0px;
+  padding: 0px;
+  background-color: #000000;
+  border: #000000 0px;
+}
+
 p.textbox{
     color: white;
     border-color: white;
@@ -200,7 +209,36 @@ a:active {
     text-decoration: underline;
 }
 
+div.hoverImage {
+  color: #EEEEEE;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("https://codehs.com/uploads/22502ee01c6611d8a5ce4860e0f3e990");
+  margin: 0px;
+  width: 100%;
+  min-height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  transition: min-height 2s, color 1s, background-image 2s;
+}
 
+div.hoverImage:hover { 
+  color: #CCCCCC;
+   background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url("https://codehs.com/uploads/22502ee01c6611d8a5ce4860e0f3e990");
+  margin: 0px;
+  min-height: 400px;
+}
 
+#FPPadding {
+  padding: 25px;
+}
 
+a.ParallaxLink:hover {
+    text-decoration: none
+}
+
+.footerProperty {
+  background-color: #000000;
+  
+}
 
