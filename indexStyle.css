@@ -19,7 +19,13 @@ Will upload some time in the future since framework for designs is being layed o
     margin: 0px;
     padding: 45px;
     color: white;
-    
+}
+
+.hobbyInterestContainer {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 8fr;
+    grid-gap: 20px;
+    padding: 25px;
 }
 
 .hobbyInterestContent {
@@ -177,8 +183,11 @@ div.blackBox {
 }
 
 .pageheadIcon {
-    width: 75px;
-    height: 75px;
+    width: 40px;
+    height: 40px;
+    margin-top: 45px;
+    margin-left: 0px;
+    margin-right: 10px;
 }
 
 .pageheadContainer {
