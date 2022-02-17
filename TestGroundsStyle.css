@@ -3,20 +3,21 @@
     padding: 0px;
     color: white;
     background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Pageconfig {
     /* lightBlue will be a placeholder for future designs */
     background-color: gray;
     /* Arial font family is probably not placeholder */
-    font-family:arial;
+    font-family: Arial;
     margin: 0px;
     padding: 0px;
 }
 
 .pageheadContainer {
     display: grid;
-    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 8fr;
+    grid-template-columns: 3fr 2fr 2fr 2fr 2fr 4fr;
     grid-gap: 20px;
     background-color: black;
     padding: 25px;
