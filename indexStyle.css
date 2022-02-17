@@ -200,12 +200,7 @@ div.blackBox {
 /*Link Style Configurations*/
 
 a:link {
-    color: #DDDDDD;
-    text-decoration: none;
-}
-
-a:visited {
-    color: #AAAAAA;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
