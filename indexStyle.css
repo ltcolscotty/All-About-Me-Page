@@ -229,7 +229,7 @@ div.hoverImage {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  transition: min-height 2s, color 1s, background-image 2s;
+  transition: min-height .75s, color .75s, background-image .75s;
 }
 
 div.hoverImage:hover { 
