@@ -17,7 +17,7 @@
 
 .pageheadContainer {
     display: grid;
-    grid-template-columns: 3fr 2fr 2fr 2fr 2fr 4fr;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 8fr;
     grid-gap: 20px;
     background-color: black;
     padding: 25px;
@@ -39,12 +39,14 @@
   text-decoration: none;
 }
 
+/*NavBar Underline Animation*/
+
 .navBarText:after {
   content: '';
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 2px;
+  height: 3px;
   bottom: 0;
   left: 0;
   background-color: #0087ca;

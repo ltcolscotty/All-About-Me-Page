@@ -13,20 +13,11 @@ body {
 }
 
 /*Navbar*/
-.pageheadContainer {
-    display: grid;
-    grid-template-columns: 3fr 2fr 2fr 2fr 2fr 2fr;
-    grid-gap: 20px;
-    background-color: black;
-    padding: 25px;
-}
-
-
 .Pageconfig {
     /* lightBlue will be a placeholder for future designs */
     background-color: gray;
     /* Arial font family is probably not placeholder */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     margin: 0px;
     padding: 0px;
 }
@@ -40,6 +31,8 @@ body {
 }
 
 .navBarText{
+  position: relative;
+  display: inline-block;
   margin: auto;
   font-family: Arial, Helvetica, sans-serif;
   color: #ffffff;
@@ -52,3 +45,24 @@ body {
   color: #cccccc;
   text-decoration: none;
 }
+
+/*NavBar Underline Animation*/
+
+.navBarText:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #0087ca;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+
+.navBarText:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom center;
+}
+
