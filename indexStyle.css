@@ -50,10 +50,12 @@ li {
     font-size: 20px;
 }
 .title {
+    color: #FFFFFF;
     font-size: 35px;
 }
 
 h2.title {
+    color: #FFFFFF;
     margin: 10px;
 }
 
@@ -202,6 +204,11 @@ div.blackBox {
 a:link {
     color: #FFFFFF;
     text-decoration: none;
+}
+
+a:visited {
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 a:hover {
