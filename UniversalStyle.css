@@ -46,6 +46,14 @@ body {
   text-decoration: none;
 }
 
+#pageTitle{
+  border-radius: 5px;
+  border-color: white;
+  border-width: 2px;
+  border-style: solid;
+  padding: 10px;
+}
+
 /*NavBar Underline Animation*/
 
 .navBarText:after {
